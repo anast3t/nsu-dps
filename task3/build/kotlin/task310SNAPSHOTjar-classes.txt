@@ -1,0 +1,1 @@
+/Users/anastet/IdeaProjects/nsu-DPS/task3/build/classes/kotlin/main/MainKt.class:/Users/anastet/IdeaProjects/nsu-DPS/task3/build/classes/kotlin/main/PrintStringsThread.class
