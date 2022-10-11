@@ -1,6 +1,6 @@
 fun main(args: Array<String>) {
     val threadNumber = if(args.isEmpty()) 10 else args[0].toInt() //10 for m1
-    val summarizer = Summarizer(10000, 10)
+    val summarizer = Summarizer(10000, 1)
     val time = System.currentTimeMillis()
     summarizer.start()
     summarizer.join()

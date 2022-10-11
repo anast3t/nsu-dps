@@ -24,6 +24,9 @@ class Summarizer(private var n: Int, private val threadNum: Int) : Thread() {
             sleep(100)
         }
         println("Summarizer ended!")
+
+
+
         /*if(n % 2 != 0){
             this.threadStack.add(CalcPartThread(n-1, this, false))
             n -= 1
