@@ -1,4 +1,3 @@
-import java.util.NoSuchElementException
 import java.util.concurrent.Executors
 
 class Summarizer(private var n: Int, private val threadNum: Int) : Thread() {
@@ -24,39 +23,10 @@ class Summarizer(private var n: Int, private val threadNum: Int) : Thread() {
             sleep(100)
         }
         println("Summarizer ended!")
-
-
-
-        /*if(n % 2 != 0){
-            this.threadStack.add(CalcPartThread(n-1, this, false))
-            n -= 1
-        }*/
-//        n /= 2
-        /*for(i in 0 until n){
-            this.threadStack.add(CalcPartThread(i*2, this, false))
-        }*/
-/*        for(i in 0 until threadNum){
-            getNewThread()
-        }*/
     }
 
-    private var threadStack: ArrayList<CalcPartThread> = arrayListOf()
-
-    @Synchronized fun pushToNumStack(num: Double, name: String) {
-        //println("$name ended: $num")
+    @Synchronized fun pushToNumStack(num: Double) {
         this.sum += num
-        //println(this.sum)
-        //getNewThread()
-    }
-
-    private fun getNewThread(){
-        try {
-            val newThread = this.threadStack.removeLast()
-            println("Starting: ${newThread.name}")
-            newThread.start()
-        } catch (e:NoSuchElementException){
-            println("Threadlist ended!")
-        }
     }
 
 
