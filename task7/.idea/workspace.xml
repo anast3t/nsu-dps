@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d001964-ecaa-4835-9920-93c57fad4b0c" name="Changes" comment="ms to 1 change">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/CalcFractionThread.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/SummarizerFraction.kt" afterDir="false" />
+    <list default="true" id="8d001964-ecaa-4835-9920-93c57fad4b0c" name="Changes" comment="fix 7 on const threads">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/CalcPartThread.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/CalcPartThread.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Summarizer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Summarizer.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +74,7 @@
       <updated>1665493854289</updated>
       <workItem from="1665493855484" duration="12985000" />
       <workItem from="1665514161088" duration="1434000" />
-      <workItem from="1665555274386" duration="6570000" />
+      <workItem from="1665555274386" duration="7108000" />
     </task>
     <task id="LOCAL-00001" summary="7 solution with threadpool">
       <created>1665509454487</created>
@@ -95,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665514407516</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix 7 on const threads">
+      <created>1665570293157</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665570293157</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +120,7 @@
     </ignored-roots>
     <MESSAGE value="7 solution with threadpool" />
     <MESSAGE value="ms to 1 change" />
-    <option name="LAST_COMMIT_MESSAGE" value="ms to 1 change" />
+    <MESSAGE value="fix 7 on const threads" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix 7 on const threads" />
   </component>
 </project>
