@@ -1,19 +1,20 @@
 import java.util.concurrent.CyclicBarrier
 
 class SummarizerFraction(private val threadNum: Int) : Thread() {
-    private var sum:Double = 0.0
+    private var sum: Double = 0.0
     fun getSum(): Double {
         return this.sum
     }
 
     @Volatile
-    var freeRun:Boolean = true
+    var freeRun: Boolean = true
+
     @Volatile
-    var maxValue:Int = 0
+    var maxValue: Long = 0L
     private var threadStack: ArrayList<CalcFractionThread> = arrayListOf()
     private val barrier = CyclicBarrier(threadNum)
     override fun run() {
-        for(i in 0 until threadNum){
+        for (i in 0 until threadNum) {
             val newThread = CalcFractionThread(i, threadNum, this)
             newThread.start()
             this.threadStack.add(newThread)
@@ -27,13 +28,13 @@ class SummarizerFraction(private val threadNum: Int) : Thread() {
         println("Summarizer ended!")
     }
 
-    fun waitForThreads(value:Int):Int{
+    fun waitForThreads(value: Long): Long {
         maxValue = if (value > maxValue) value else maxValue
         barrier.await()
         return maxValue
     }
 
-    fun finish(){
+    fun finish() {
         println("Finishing")
         this.freeRun = false
     }
