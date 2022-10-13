@@ -28,7 +28,7 @@ class SummarizerFraction(private val threadNum: Int) : Thread() {
         println("Summarizer ended!")
     }
 
-    fun waitForThreads(value: Long): Long {
+    @Synchronized fun waitForThreads(value: Long): Long {
         maxValue = if (value > maxValue) value else maxValue
         barrier.await()
         return maxValue
