@@ -4,7 +4,7 @@ class CalcFractionThread(private val numbers: ArrayList<Int>):Thread() {
         return this.sum
     }
     override fun run() {
-        //println("${this.name} -- StartPoint: ${numbers[0]} | Endpoint: ${numbers[1]}")
+        println("${this.name} -- StartPoint: ${numbers[0]} | Endpoint: ${numbers[1]}")
         for(i in numbers[0]..numbers[1]){
             sum += calc((i).toDouble())
         }

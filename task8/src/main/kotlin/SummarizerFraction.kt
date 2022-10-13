@@ -1,3 +1,4 @@
+import java.util.Objects
 import java.util.concurrent.CyclicBarrier
 
 class SummarizerFraction(private val threadNum: Int) : Thread() {
@@ -11,6 +12,9 @@ class SummarizerFraction(private val threadNum: Int) : Thread() {
 
     @Volatile
     var maxValue: Long = 0L
+
+    private val valueWriteLock = Object()
+
     private var threadStack: ArrayList<CalcFractionThread> = arrayListOf()
     private val barrier = CyclicBarrier(threadNum)
     override fun run() {
@@ -28,8 +32,10 @@ class SummarizerFraction(private val threadNum: Int) : Thread() {
         println("Summarizer ended!")
     }
 
-    @Synchronized fun waitForThreads(value: Long): Long {
-        maxValue = if (value > maxValue) value else maxValue
+    fun waitForThreads(value: Long): Long {
+        synchronized(valueWriteLock){
+            maxValue = if (value > maxValue) value else maxValue
+        }
         barrier.await()
         return maxValue
     }
