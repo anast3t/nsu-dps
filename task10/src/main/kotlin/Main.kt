@@ -1,7 +1,10 @@
 fun main(args: Array<String>) {
-    val second = SecondThread()
+    val printer = Printer()
+
+    val second = SecondThread(printer)
+
     second.start()
-    for(i in 0..10)
-        println("MainText $i")
+    for(i in 0 until 10)
+        printer.print("main","MainText $i", i == 9)
 
 }
