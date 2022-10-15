@@ -4,18 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74d4cc53-588d-48bb-b56c-f36d3ca0a646" name="Changes" comment="task 10 wait/notify (NO WHILE LOOP ON wait())">
-      <change afterPath="$PROJECT_DIR$/../task11/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task11/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task11/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task11/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task11/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task11/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task11/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task11/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../task11/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/SecondThread.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/SecondThread.kt" afterDir="false" />
+    <list default="true" id="600b2af8-e3e2-4603-9678-009fc409601d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/SecondThread.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10/src/main/kotlin/SecondThread.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task10/src/main/kotlin/SecondThread.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,18 +46,20 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2G2c0v1CIBPtQv7bGl0xZbqug1c" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2GAwZ384wO8bfSD4sBVMxXFcmky" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/anastet/IdeaProjects/nsu-DPS/task10",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,7 +70,7 @@
   <component name="RunManager">
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
-      <module name="task10.main" />
+      <module name="task11.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -76,23 +84,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="74d4cc53-588d-48bb-b56c-f36d3ca0a646" name="Changes" comment="" />
-      <created>1665589902038</created>
+      <changelist id="600b2af8-e3e2-4603-9678-009fc409601d" name="Changes" comment="" />
+      <created>1665844750322</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1665589902038</updated>
-      <workItem from="1665589903261" duration="1932000" />
-      <workItem from="1665648921530" duration="598000" />
-      <workItem from="1665838750390" duration="2457000" />
+      <updated>1665844750322</updated>
+      <workItem from="1665844751430" duration="962000" />
     </task>
-    <task id="LOCAL-00001" summary="task 10 wait/notify (NO WHILE LOOP ON wait())">
-      <created>1665840774135</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1665840774135</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,10 +108,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="task 10 wait/notify (NO WHILE LOOP ON wait())" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 10 wait/notify (NO WHILE LOOP ON wait())" />
   </component>
 </project>
