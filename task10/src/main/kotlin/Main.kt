@@ -4,7 +4,8 @@ fun main(args: Array<String>) {
     val second = SecondThread(printer)
 
     second.start()
+    Thread.sleep(1000)
     for(i in 0 until 10)
-        printer.print("main","MainText $i", i == 9)
+        printer.print("main","MainText $i", true, i)
 
 }

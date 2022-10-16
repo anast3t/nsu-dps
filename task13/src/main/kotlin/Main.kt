@@ -1,5 +1,3 @@
-import java.util.concurrent.locks.ReentrantLock
-
 fun main(args: Array<String>) {
     val table = Table()
     val philosophers: ArrayList<Philosopher> = arrayListOf()

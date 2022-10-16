@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5086219e-5690-44de-a0b0-4590f26e64e9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../task9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task10/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10/src/main/kotlin/Printer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task10/src/main/kotlin/Printer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10/src/main/kotlin/SecondThread.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task10/src/main/kotlin/SecondThread.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task6/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task6/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task6/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/anastet/IdeaProjects/nsu-DPS/task13",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -50,6 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665852456816</updated>
       <workItem from="1665852458853" duration="620000" />
+      <workItem from="1665933216445" duration="673000" />
     </task>
     <servers />
   </component>
