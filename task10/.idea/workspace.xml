@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74d4cc53-588d-48bb-b56c-f36d3ca0a646" name="Changes" comment="task 10 wait/notify (NO WHILE LOOP ON wait())">
+    <list default="true" id="74d4cc53-588d-48bb-b56c-f36d3ca0a646" name="Changes" comment="wait() safety?">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Printer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Printer.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/SecondThread.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/SecondThread.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task13/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task13/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task13/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task13/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task13/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task6/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../task6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task6/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,24 +35,27 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2G2c0v1CIBPtQv7bGl0xZbqug1c" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/anastet/IdeaProjects/nsu-DPS/task10&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/anastet/IdeaProjects/nsu-DPS/task10",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
@@ -82,7 +81,7 @@
       <workItem from="1665589903261" duration="1932000" />
       <workItem from="1665648921530" duration="598000" />
       <workItem from="1665838750390" duration="2457000" />
-      <workItem from="1665933292517" duration="5278000" />
+      <workItem from="1665933292517" duration="6340000" />
     </task>
     <task id="LOCAL-00001" summary="task 10 wait/notify (NO WHILE LOOP ON wait())">
       <created>1665840774135</created>
@@ -91,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665840774135</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="wait() safety?">
+      <created>1665938611402</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665938611402</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,10 +115,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="task 10 wait/notify (NO WHILE LOOP ON wait())" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 10 wait/notify (NO WHILE LOOP ON wait())" />
+    <MESSAGE value="wait() safety?" />
+    <option name="LAST_COMMIT_MESSAGE" value="wait() safety?" />
   </component>
 </project>

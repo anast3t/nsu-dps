@@ -1,0 +1,140 @@
+0--Thread-0 Entered part BEFORE synchronizer
+0--Thread-0 Entered part AFTER synchronizer
+0--Thread-0 going wait: false === false
+0--main Entered part BEFORE synchronizer
+0--main Entered part AFTER synchronizer
+0--main-s step, not waiting: false !== true
+0--main notified, printing: MainText 0
+0--main changING false -> true
+0--main changED flag. Curr: true
+0--main called notifyAll()
+1--main Entered part BEFORE synchronizer
+0--Thread-0 notified, printing: SecondaryText 0
+0--Thread-0 changING true -> false
+0--Thread-0 changED flag. Curr: false
+0--Thread-0 called notifyAll()
+1--Thread-0 Entered part BEFORE synchronizer
+1--main Entered part AFTER synchronizer
+1--main-s step, not waiting: false !== true
+1--main notified, printing: MainText 1
+1--main changING false -> true
+1--main changED flag. Curr: true
+1--main called notifyAll()
+2--main Entered part BEFORE synchronizer
+1--Thread-0 Entered part AFTER synchronizer
+1--Thread-0-s step, not waiting: true !== false
+1--Thread-0 notified, printing: SecondaryText 1
+1--Thread-0 changING true -> false
+1--Thread-0 changED flag. Curr: false
+1--Thread-0 called notifyAll()
+2--Thread-0 Entered part BEFORE synchronizer
+2--main Entered part AFTER synchronizer
+2--main-s step, not waiting: false !== true
+2--main notified, printing: MainText 2
+2--main changING false -> true
+2--main changED flag. Curr: true
+2--main called notifyAll()
+3--main Entered part BEFORE synchronizer
+2--Thread-0 Entered part AFTER synchronizer
+2--Thread-0-s step, not waiting: true !== false
+2--Thread-0 notified, printing: SecondaryText 2
+2--Thread-0 changING true -> false
+2--Thread-0 changED flag. Curr: false
+2--Thread-0 called notifyAll()
+3--Thread-0 Entered part BEFORE synchronizer
+3--main Entered part AFTER synchronizer
+3--main-s step, not waiting: false !== true
+3--main notified, printing: MainText 3
+3--main changING false -> true
+3--main changED flag. Curr: true
+3--main called notifyAll()
+4--main Entered part BEFORE synchronizer
+3--Thread-0 Entered part AFTER synchronizer
+3--Thread-0-s step, not waiting: true !== false
+3--Thread-0 notified, printing: SecondaryText 3
+3--Thread-0 changING true -> false
+3--Thread-0 changED flag. Curr: false
+3--Thread-0 called notifyAll()
+4--Thread-0 Entered part BEFORE synchronizer
+4--Thread-0 Entered part AFTER synchronizer
+4--Thread-0 going wait: false === false
+4--main Entered part AFTER synchronizer
+4--main-s step, not waiting: false !== true
+4--main notified, printing: MainText 4
+4--main changING false -> true
+4--main changED flag. Curr: true
+4--main called notifyAll()
+5--main Entered part BEFORE synchronizer
+4--Thread-0 notified, printing: SecondaryText 4
+4--Thread-0 changING true -> false
+4--Thread-0 changED flag. Curr: false
+4--Thread-0 called notifyAll()
+5--Thread-0 Entered part BEFORE synchronizer
+5--main Entered part AFTER synchronizer
+5--main-s step, not waiting: false !== true
+5--main notified, printing: MainText 5
+5--main changING false -> true
+5--main changED flag. Curr: true
+5--main called notifyAll()
+5--Thread-0 Entered part AFTER synchronizer
+5--Thread-0-s step, not waiting: true !== false
+5--Thread-0 notified, printing: SecondaryText 5
+6--main Entered part BEFORE synchronizer
+5--Thread-0 changING true -> false
+5--Thread-0 changED flag. Curr: false
+5--Thread-0 called notifyAll()
+6--Thread-0 Entered part BEFORE synchronizer
+6--main Entered part AFTER synchronizer
+6--main-s step, not waiting: false !== true
+6--main notified, printing: MainText 6
+6--main changING false -> true
+6--main changED flag. Curr: true
+6--main called notifyAll()
+7--main Entered part BEFORE synchronizer
+6--Thread-0 Entered part AFTER synchronizer
+6--Thread-0-s step, not waiting: true !== false
+6--Thread-0 notified, printing: SecondaryText 6
+6--Thread-0 changING true -> false
+6--Thread-0 changED flag. Curr: false
+6--Thread-0 called notifyAll()
+7--Thread-0 Entered part BEFORE synchronizer
+7--main Entered part AFTER synchronizer
+7--main-s step, not waiting: false !== true
+7--main notified, printing: MainText 7
+7--main changING false -> true
+7--main changED flag. Curr: true
+7--main called notifyAll()
+8--main Entered part BEFORE synchronizer
+7--Thread-0 Entered part AFTER synchronizer
+7--Thread-0-s step, not waiting: true !== false
+7--Thread-0 notified, printing: SecondaryText 7
+7--Thread-0 changING true -> false
+7--Thread-0 changED flag. Curr: false
+7--Thread-0 called notifyAll()
+8--Thread-0 Entered part BEFORE synchronizer
+8--main Entered part AFTER synchronizer
+8--main-s step, not waiting: false !== true
+8--main notified, printing: MainText 8
+8--main changING false -> true
+8--main changED flag. Curr: true
+8--main called notifyAll()
+9--main Entered part BEFORE synchronizer
+8--Thread-0 Entered part AFTER synchronizer
+8--Thread-0-s step, not waiting: true !== false
+8--Thread-0 notified, printing: SecondaryText 8
+8--Thread-0 changING true -> false
+8--Thread-0 changED flag. Curr: false
+8--Thread-0 called notifyAll()
+9--Thread-0 Entered part BEFORE synchronizer
+9--main Entered part AFTER synchronizer
+9--main-s step, not waiting: false !== true
+9--main notified, printing: MainText 9
+9--main changING false -> true
+9--main changED flag. Curr: true
+9--main called notifyAll()
+9--Thread-0 Entered part AFTER synchronizer
+9--Thread-0-s step, not waiting: true !== false
+9--Thread-0 notified, printing: SecondaryText 9
+9--Thread-0 changING true -> false
+9--Thread-0 changED flag. Curr: false
+9--Thread-0 called notifyAll()
