@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74d4cc53-588d-48bb-b56c-f36d3ca0a646" name="Changes" comment="wait() safety?">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Printer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Printer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/SecondThread.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/SecondThread.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task13/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +78,7 @@
       <workItem from="1665589903261" duration="1932000" />
       <workItem from="1665648921530" duration="598000" />
       <workItem from="1665838750390" duration="2457000" />
-      <workItem from="1665933292517" duration="6340000" />
+      <workItem from="1665933292517" duration="7136000" />
     </task>
     <task id="LOCAL-00001" summary="task 10 wait/notify (NO WHILE LOOP ON wait())">
       <created>1665840774135</created>
