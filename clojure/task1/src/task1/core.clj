@@ -3,8 +3,8 @@
 ;(remove #{elem} alphabet))))
 (defn step
   "step"
-  [alphabet, words]
-  (reduce (fn [strings, elem]
+  [alphabet words]
+  (reduce (fn [strings elem]
             (concat strings
                     (map #(str elem %)
                          (filter #(not (some
@@ -13,17 +13,18 @@
                                  alphabet))))
           ()
           words))
+
 (defn stepper
   "combination of steps"
-  [alphabet, n, TEST]
-  (reduce (fn [words, nstep]
-            (concat (#(drop (count %) %) words)
-                    (step alphabet words)))
-          TEST ;TODO: change on alphabet
-          (range 0 (- n 1))))
+  [alphabet n]
+  (reduce (fn [words nstep] (step alphabet words))
+          (map #(str %) alphabet)
+          (range (- n 1))))
 
-(println (stepper [\a, \b, \c, \d] 4 ["a", "b", "c", "d"]))
+(println (stepper [\a, \b, \c, \d] 4))
 
+
+;(concat (#(drop (count %) %) words) a); TODO: интересная конструкция перезаписи листа, от которой я избавился
 ;(println (seq (char-array "ab")))
 ;(println #{"a"})
 ;(println (type (seq "ab")))
@@ -42,6 +43,7 @@
 ;  (filter #(not (some (fn [u] (= u %))
 ;                      (vec "ab")))
 ;          [\a, \b, \c]))
+;
 ;(println (remove (set (seq "a")) ["a", "b"]))
 ;(println (remove #{"a"} ["a", "b"]))
 ;(println (type (nth (stepper [ "a", "b", "c"] 3) 3)))
