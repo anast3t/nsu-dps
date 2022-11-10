@@ -1,14 +1,6 @@
 (ns task1.core)
 
-;(defn step
-;  "step"
-;  [alphabet, words]
-;  (reduce (fn [strings, elem]
-;            (concat strings
-;                   (map #(str elem %)
-;                         (remove #{elem} alphabet))))
-;          ()
-;          words))
+;(remove #{elem} alphabet))))
 (defn step
   "step"
   [alphabet, words]
@@ -24,11 +16,13 @@
 (defn stepper
   "combination of steps"
   [alphabet, n, TEST]
-  (reduce (fn [res, nstep]
-            (concat res
-                    (step alphabet res)))
-          TEST ;change on alphabet
+  (reduce (fn [words, nstep]
+            (concat (#(drop (count %) %) words)
+                    (step alphabet words)))
+          TEST ;TODO: change on alphabet
           (range 0 (- n 1))))
+
+(println (stepper [\a, \b, \c, \d] 4 ["a", "b", "c", "d"]))
 
 ;(println (seq (char-array "ab")))
 ;(println #{"a"})
@@ -50,6 +44,4 @@
 ;          [\a, \b, \c]))
 ;(println (remove (set (seq "a")) ["a", "b"]))
 ;(println (remove #{"a"} ["a", "b"]))
-
-(println (stepper [\a, \b, \c] 3 ["a", "b", "c"]))
 ;(println (type (nth (stepper [ "a", "b", "c"] 3) 3)))
