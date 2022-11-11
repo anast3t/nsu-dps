@@ -1,15 +1,16 @@
 (ns task1.core)
-
+(use '[clojure.string :only [ends-with?]])
 ;(remove #{elem} alphabet))))
+;(some
+;  (fn [u] (= u %))
+;  (vec elem))
 (defn step
   "step"
   [alphabet words]
   (reduce (fn [strings elem]
             (concat strings
                     (map #(str elem %)
-                         (filter #(not (some
-                                         (fn [u] (= u %))
-                                         (vec elem)))
+                         (filter #(not (ends-with? elem %))
                                  alphabet))))
           ()
           words))
@@ -18,11 +19,11 @@
   "combination of steps"
   [alphabet n]
   (reduce (fn [words nstep] (step alphabet words))
-          (map #(str %) alphabet)
+          alphabet
           (range (- n 1))))
 
-(println (stepper [\a, \b, \c, \d] 4))
-
+(println (stepper ["a", "b", "c", "d"]  3))
+;[\a, \b, \c, \d]
 
 ;(concat (#(drop (count %) %) words) a); TODO: интересная конструкция перезаписи листа, от которой я избавился
 ;(println (seq (char-array "ab")))
