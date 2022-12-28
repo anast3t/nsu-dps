@@ -15,11 +15,8 @@
        (cons
          prime-now
          (prime-set
-           (new-filter-layer prime-now s))))
-     )))
+           (new-filter-layer prime-now s)))))))
 
+; На каждое число в последовательности создаётся фильтр, который отсеевает по условию решета Эратосфена.
 
 ;(print (doall (take 20 (prime-set))))
-
-
-
