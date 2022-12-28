@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5086219e-5690-44de-a0b0-4590f26e64e9" name="Changes" comment="java task 13 + clj task 2" />
+    <list default="true" id="0ef6ca20-1666-4b89-9f72-aed809c6c130" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/MySLList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Node.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task13/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,22 +19,13 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="task13" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Kotlin Data Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -38,26 +33,26 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2GBCBGU8QhRBwk7DxKHUnvEjGEL" />
+  <component name="ProjectId" id="2JXRJd9UKpqvqHhNh3thmNQeYm2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/anastet/IdeaProjects/nsu/nsu-DPS/java/task13&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
@@ -97,7 +92,7 @@
     </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
-      <module name="task13.main" />
+      <module name="task12.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -111,47 +106,21 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5086219e-5690-44de-a0b0-4590f26e64e9" name="Changes" comment="" />
-      <created>1665852456816</created>
+      <changelist id="0ef6ca20-1666-4b89-9f72-aed809c6c130" name="Changes" comment="" />
+      <created>1672222374946</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1665852456816</updated>
-      <workItem from="1665852458853" duration="620000" />
-      <workItem from="1665933216445" duration="673000" />
-      <workItem from="1667307467488" duration="2000" />
-      <workItem from="1672023299416" duration="5362000" />
-      <workItem from="1672220518377" duration="1851000" />
+      <updated>1672222374946</updated>
+      <workItem from="1672222376092" duration="4461000" />
     </task>
-    <task id="LOCAL-00001" summary="java task 13 + clj task 2">
-      <created>1672222253808</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1672222253808</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
-      <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="java task 13 + clj task 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="java task 13 + clj task 2" />
   </component>
 </project>
