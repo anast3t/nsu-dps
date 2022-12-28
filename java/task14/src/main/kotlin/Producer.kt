@@ -12,10 +12,8 @@ abstract class Producer: Runnable {
     fun acceptComponent() {
         lock.lock()
         try {
-            if (semaphore.availablePermits() >= maxItems) {
-                while (semaphore.availablePermits() >= maxItems) {
-                    condition.await()
-                }
+            while (semaphore.availablePermits() >= maxItems) {
+                condition.await()
             }
             semaphore.release()
         } finally {

@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52f9a7be-456b-47df-96b5-1dba0b505ec9" name="Changes" comment="task 9 with Philosopher fix">
-      <change beforePath="$PROJECT_DIR$/../task6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../clojure/task2/src/task2/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/../../clojure/task2/src/task2/core.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task10/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task10/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task13/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task13/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task13/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task13/src/main/kotlin/Table.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task13/src/main/kotlin/Table.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task14/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task14/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task14/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +27,23 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="task9" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -25,7 +52,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -41,15 +68,52 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/anastet/IdeaProjects/nsu-DPS/task9",
+    "last_opened_file_path": "/Users/anastet/IdeaProjects/nsu/nsu-DPS/java/task9",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager">
+    <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="bbPath" value="" />
+      <setting name="parameters" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <setting name="workingDir" value="" />
+      <setting name="focusEditor" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <setting name="focusEditor" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="replPortFileType" value="STANDARD" />
+      <setting name="customPortFile" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <setting name="focusEditor" value="false" />
+      <method v="2" />
+    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
       <module name="task9.main" />
@@ -73,6 +137,7 @@
       <updated>1665847036940</updated>
       <workItem from="1665847038074" duration="5384000" />
       <workItem from="1665972822064" duration="259000" />
+      <workItem from="1672024318448" duration="90000" />
     </task>
     <task id="LOCAL-00001" summary="task 9 with Philosopher fix">
       <created>1665852157802</created>
@@ -101,6 +166,7 @@
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="task 9 with Philosopher fix" />
     <option name="LAST_COMMIT_MESSAGE" value="task 9 with Philosopher fix" />

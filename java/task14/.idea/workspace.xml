@@ -4,28 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="198ea7dd-caa6-4037-b437-a7302c374f07" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../clojure/task4/task4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Combiner.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Combiner0.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Components.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Fabric.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Producer.kt" afterDir="false" />
+    <list default="true" id="198ea7dd-caa6-4037-b437-a7302c374f07" name="Changes" comment="clj task4 copy + java task14 made">
+      <change beforePath="$PROJECT_DIR$/../../clojure/task2/src/task2/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/../../clojure/task2/src/task2/core.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task10/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task10/src/main/kotlin/Printer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task10/src/main/kotlin/Printer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task13/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task13/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task13/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task13/src/main/kotlin/Table.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../task13/src/main/kotlin/Table.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Producer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Producer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task9/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task9/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task9/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +27,18 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -66,6 +69,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/anastet/IdeaProjects/nsu/nsu-DPS/java/task14",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -132,8 +136,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671398135585</updated>
-      <workItem from="1671398136709" duration="10151000" />
+      <workItem from="1671398136709" duration="14657000" />
+      <workItem from="1671446200774" duration="598000" />
+      <workItem from="1672022174339" duration="7321000" />
     </task>
+    <task id="LOCAL-00001" summary="clj task4 copy + java task14 made">
+      <created>1671412633001</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671412633001</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,5 +158,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="clj task4 copy + java task14 made" />
+    <option name="LAST_COMMIT_MESSAGE" value="clj task4 copy + java task14 made" />
   </component>
 </project>
