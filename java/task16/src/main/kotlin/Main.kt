@@ -25,7 +25,7 @@ fun main() {
             }else if(it.isEmpty()){
                 skippedHeaders = true
             }
-            Thread.sleep(200)
+            Thread.sleep(200) //
         }
         blockingQueue.add(Line(null))
         socket.close()
@@ -35,6 +35,7 @@ fun main() {
     var lineNumber = 0
     val lineLimit = 5
     while (true){
+
         val str = blockingQueue.take().content ?: break
         println(str)
         lineNumber += 1

@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5086219e-5690-44de-a0b0-4590f26e64e9" name="Changes" comment="java task 13 + clj task 2" />
+    <list default="true" id="5086219e-5690-44de-a0b0-4590f26e64e9" name="Changes" comment="java task 13 + clj task 2">
+      <change beforePath="$PROJECT_DIR$/../../clojure/task2/src/task2/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/../../clojure/task2/src/task2/core.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../clojure/task2/test/task2/core_test.clj" beforeDir="false" afterPath="$PROJECT_DIR$/../../clojure/task2/test/task2/core_test.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task12/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task16/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task16/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task16/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task16/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../task16/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../task16/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../xml/task1/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../xml/task1/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../xml/task1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../xml/task1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../xml/task1/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../xml/task1/src/main/kotlin/Main.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,6 +132,7 @@
       <workItem from="1667307467488" duration="2000" />
       <workItem from="1672023299416" duration="5362000" />
       <workItem from="1672220518377" duration="1851000" />
+      <workItem from="1672305907520" duration="2745000" />
     </task>
     <task id="LOCAL-00001" summary="java task 13 + clj task 2">
       <created>1672222253808</created>

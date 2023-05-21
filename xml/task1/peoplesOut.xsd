@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="people" type="peopleType"/>
+  <xs:complexType name="personType">
+    <xs:sequence>
+      <xs:element name="children">
+        <xs:complexType mixed="true">
+          <xs:choice maxOccurs="unbounded" minOccurs="0">
+            <xs:element type="sonType" name="son"/>
+            <xs:element type="daughterType" name="daughter"/>
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="parents">
+        <xs:complexType mixed="true">
+          <xs:choice maxOccurs="unbounded" minOccurs="0">
+            <xs:element type="fatherType" name="father"/>
+            <xs:element type="motherType" name="mother"/>
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="siblings">
+        <xs:complexType mixed="true">
+          <xs:sequence>
+            <xs:element type="brotherType" name="brother" maxOccurs="unbounded" minOccurs="0"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="id" use="optional"/>
+    <xs:attribute type="xs:string" name="firstname" use="optional"/>
+    <xs:attribute type="xs:string" name="lastname" use="optional"/>
+    <xs:attribute type="xs:string" name="gender" use="optional"/>
+    <xs:attribute type="xs:string" name="spouse" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="brotherType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="id" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="siblingsType">
+    <xs:sequence>
+      <xs:element type="brotherType" name="brother" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sonType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="id" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="childrenType">
+    <xs:choice maxOccurs="unbounded" minOccurs="0">
+      <xs:element type="sonType" name="son"/>
+      <xs:element type="daughterType" name="daughter"/>
+    </xs:choice>
+  </xs:complexType>
+  <xs:complexType name="daughterType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="id" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="fatherType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="id" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="motherType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="id" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="parentsType">
+    <xs:choice maxOccurs="unbounded" minOccurs="0">
+      <xs:element type="fatherType" name="father"/>
+      <xs:element type="motherType" name="mother"/>
+    </xs:choice>
+  </xs:complexType>
+  <xs:complexType name="peopleType">
+    <xs:sequence>
+      <xs:element type="personType" name="person" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,249 @@
+openapi: 3.0.0
+info:
+  title: REST API For Flights Database
+  version: 0.0.1
+servers:
+  - url: https://localhost:8080/api/v1/ru
+    description: Dev Server
+paths:
+  /cities:
+    get:
+      summary: Get all available cities
+      responses:
+        '200':
+          description: Returns all available cities
+          content:
+            application/json:
+              schema:
+                properties:
+                  cities:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/City'
+                      
+  /airports:
+    get:
+      summary: Get all available airports
+      parameters:
+        - in: query
+          name: cityname
+          schema:
+            type: string
+          description: Name of the city, where we need to look for the airports
+      responses:
+        '200':
+          description: Returns all available airports
+          content:
+            application/json:
+              schema:
+                properties:
+                  airports:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Airport'
+  
+  /airports/{code}/inbound:
+    get:
+      summary: Get inbound schedule for an airport
+      parameters:
+        - in: path
+          name: code
+          schema: 
+            type: string
+          required: true
+          description: Airport code
+      responses:
+        '200':
+          description: Return inbound schedule for an airport
+          content:
+           application/json:
+            schema:
+              properties:
+                schedule:
+                  type: array
+                  items:
+                    $ref: '#/components/schemas/FlightIn'
+                      
+
+  /airports/{code}/outbound:
+    get:
+      summary: Get outbound schedule for an airport
+      parameters:
+        - in: path
+          name: code
+          schema: 
+            type: string
+          required: true
+          description: Airport code
+      responses:
+        '200':
+          description: Return outbound schedule for an airport
+          content:
+            application/json:
+              schema:
+                properties:
+                  schedule:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/FlightOut'
+  /routes:
+    post:
+      summary: Get all routes betwin A and B with specified params
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: 
+              $ref: '#/components/schemas/RouteRequest'
+      responses:
+        '200':
+          description: Return all possible routes
+          content:
+            application/json:
+              schema:
+                properties:
+                  routes:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Route'
+  
+  /routes/booking:
+    post:
+      summary: Create a booking for a selected route for a passenger
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BookingRequest'
+      responses:
+        '200':
+          description: Confirmation of successfull booking
+          content:
+            application/json:
+              schema:
+                properties:
+                  success:
+                    type: boolean
+  
+  /flights/checkin:
+    post:
+      summary: Check in for a flight
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CheckinRequest'
+      responses:
+        '200':
+          description: Confirmation of successfull checkin
+          content:
+            application/json:
+              schema:
+                properties:
+                  success:
+                    type: boolean
+
+
+
+components:
+  schemas:
+    City:
+      properties:
+        name:
+          type: string
+        timezone:
+          type: string
+        coordinates:
+          type: object
+          properties:
+            lng:
+              type: number
+            lat: 
+              type: number
+    Airport:
+      allOf:
+        - $ref: '#/components/schemas/City'
+      properties:
+        code: 
+          type: string
+
+    FlightGeneral:
+      properties:
+        flight_no: 
+          type: string
+        days_of_week:
+          type: array
+          items: 
+            type: string
+
+    FlightIn:
+      allOf:
+        - $ref: '#/components/schemas/FlightGeneral'
+      properties:
+        time_of_arrival:
+          type: string
+        origin: 
+          $ref: '#/components/schemas/Airport'
+
+    FlightOut:
+      allOf:
+        - $ref: '#/components/schemas/FlightGeneral'
+      properties:
+        time_of_departure:
+          type: string
+        destination:
+          $ref: '#/components/schemas/Airport'
+
+    Route:
+      properties:
+        origin:
+          $ref: '#/components/schemas/Airport'
+        destination:
+          $ref: '#/components/schemas/Airport'
+        flight_no:
+          type: string
+        flight_id:
+          type: number
+        time_of_departure:
+          type: string
+        time_of_arrival:
+          type: string
+
+    RouteRequest:
+      properties:
+        point_a: 
+          type: string
+        point_b: 
+          type: string
+        departure_date:
+          type: string
+        booking_class:
+          type: string
+          enum: [Economy, Comfort, Buisness]
+        connections:
+          type: number
+
+    BookingRequest:
+      properties:
+        passenger_id: 
+          type: number
+        route:
+          type: array
+          items:
+            type: number
+    
+    CheckinRequest:
+      properties:
+        passenger_id:
+          type: number
+        flight_id:
+          type: number
+        seat_number:
+          type: number
+        
+
+        
+    
+      

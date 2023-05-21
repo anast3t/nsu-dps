@@ -15,6 +15,7 @@
     (range philosophersNumber)))
 (def forks (makeForks))
 
+; ! - on imputing functions
 (defn philosopher
   [right left id]
   (new Thread

@@ -4,7 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79280d98-f83d-44c4-ae3e-eba666eb0d1e" name="Changes" comment="xml1" />
+    <list default="true" id="79280d98-f83d-44c4-ae3e-eba666eb0d1e" name="Changes" comment="xml2(">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PeopleContainer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PersonXmlAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../clojure/task2/.idea/libraries/Leiningen__clojure_complete_0_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../clojure/task2/.idea/libraries/Leiningen__nrepl_0_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../clojure/task2/src/task2/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/../../clojure/task2/src/task2/core.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../clojure/task2/task2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../clojure/task2/task2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../clojure/task2/test/task2/core_test.clj" beforeDir="false" afterPath="$PROJECT_DIR$/../../clojure/task2/test/task2/core_test.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../clojure/task3/.idea/libraries/Leiningen__clojure_complete_0_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../clojure/task3/.idea/libraries/Leiningen__nrepl_0_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../clojure/task3/task3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../clojure/task3/task3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../clojure/task4/task4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../clojure/task4/task4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../clojure/task5/.idea/libraries/Leiningen__clojure_complete_0_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../clojure/task5/.idea/libraries/Leiningen__nrepl_0_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../clojure/task5/src/task5/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/../../clojure/task5/src/task5/core.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../clojure/task5/task5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../clojure/task5/task5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/task12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/task12/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/task13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/task13/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/task16/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/task16/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/task16/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/task16/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/task16/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/task16/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/task16/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/task16/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +40,37 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="task1" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="task1" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="task1" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,6 +86,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2JYhVVDzq8Tlxz3MbYBm6Ib77zk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -41,12 +101,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/anastet/IdeaProjects/nsu/nsu-DPS/xml/task1/src/main/kotlin",
+    "last_opened_file_path": "/Users/anastet/IdeaProjects/nsu/nsu-DPS/xml/task1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.36206895",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -58,7 +121,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="bbPath" value="" />
@@ -95,6 +158,106 @@
       <setting name="focusEditor" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="task1 [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildDependents" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="task1 [buildKotlinToolingMetadata]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildKotlinToolingMetadata" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="task1 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="task1 [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <module name="task1.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Gradle.task1 [build]" />
+        <item itemvalue="Gradle.task1 [clean]" />
+        <item itemvalue="Gradle.task1 [buildDependents]" />
+        <item itemvalue="Gradle.task1 [buildKotlinToolingMetadata]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -104,7 +267,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672260949719</updated>
-      <workItem from="1672260951008" duration="8802000" />
+      <workItem from="1672260951008" duration="9267000" />
+      <workItem from="1672306205375" duration="2756000" />
+      <workItem from="1675926292829" duration="527000" />
+      <workItem from="1675928039671" duration="39000" />
+      <workItem from="1684082201682" duration="305000" />
+      <workItem from="1684083933459" duration="11357000" />
+      <workItem from="1684117993729" duration="1936000" />
+      <workItem from="1684650718195" duration="1163000" />
+      <workItem from="1684655167391" duration="695000" />
+      <workItem from="1684655877145" duration="217000" />
+      <workItem from="1684656103231" duration="3213000" />
     </task>
     <task id="LOCAL-00001" summary="xml1">
       <created>1672297465039</created>
@@ -126,18 +299,8 @@
     <MESSAGE value="xml1" />
     <option name="LAST_COMMIT_MESSAGE" value="xml1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/Main.kt</url>
-          <line>123</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
